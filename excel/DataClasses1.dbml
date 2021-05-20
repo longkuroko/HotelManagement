@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QUANLYNHANGHI1" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ROSE\SQLEXPRESS;Initial Catalog=QUANLYNHANGHI1;Integrated Security=True" SettingsObjectName="QuanLyNhaNghi.Properties.Settings" SettingsPropertyName="QUANLYNHANGHI1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CHITIETHOADON" Member="CHITIETHOADON">
+    <Type Name="CHITIETHOADON">
+      <Column Name="MaHD" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SoPhieuTP" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SoPhieuDV" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="MaPhong" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="NgayThanhToan" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="TongTien" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
